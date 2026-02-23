@@ -1,4 +1,5 @@
 
+// (C) OlegNask, Олег Насиканов 2026
 import { GoogleGenAI, Modality } from "@google/genai";
 import { VoiceName } from "../types";
 import { decode, decodeAudioData, concatenateAudioBuffers } from "../utils/audioHelper";

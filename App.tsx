@@ -1,4 +1,5 @@
 
+// (C) OlegNask, Олег Насиканов 2026
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { VoiceName, AudioState } from './types';
 import { VOICE_OPTIONS } from './constants';
@@ -273,7 +274,7 @@ const App: React.FC = () => {
       </main>
 
       <footer className="mt-12 text-slate-500 text-sm">
-        &copy; 2024 Gemini TTS Studio | Работает на базе Google AI
+        &copy; 2026 OlegNask, Олег Насиканов (C) | Работает на базе Google AI
       </footer>
     </div>
   );
